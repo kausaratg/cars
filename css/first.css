@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    overflow-x: hidden;
+}
+.logo{
+    margin: 0px 45%;
+    font-size: 20px;
+    color: blueviolet;
+}
+.body{
+    border: 65px solid pink;
+    display: flex;
+    margin: 1% 10%;
+    width: 70rem;
+    height: 35rem;
+    background-color: rgb(137, 137, 238);
+    color: white;
+}
+.sedans{
+    background-color: rgb(255, 115, 0);
+}
+.suvs{
+    background-color: rgb(2, 66, 66);
+}
+.luxury{
+    background-color: rgb(1, 27, 1);
+}
+.sedans img, .suvs img, .luxury img{
+    margin: 2rem 3rem;
+}
+.sedans h1, .suvs h1, .luxury h1{
+    margin: 0px 3rem
+}
+.sedans p, .suvs p, .luxury p{
+    margin: 1rem 3rem;
+}
+.sedans button{
+    margin: 3rem 3rem;
+    height: 2.5rem;
+    width: 10rem;
+    border: solid white;
+    border-radius: 30px;
+    text-align: center; 
+    color: rgb(255, 115, 0);
+    background-color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+.sedans a{
+    text-decoration: none;
+    color: rgb(255, 115, 0);;
+
+}
+.suvs button{
+    margin: 3rem 5rem;
+    height: 2.5rem;
+    width: 10rem;
+    border: solid white;
+    border-radius: 30px;
+    text-align: center; 
+    color: rgb(2, 66, 66);
+    background-color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+.suvs a{
+    text-decoration: none;
+    color: rgb(2, 66, 66);
+
+}
+.luxury button{
+    margin: 3rem 5rem;
+    height: 2.5rem;
+    width: 10rem;
+    border: solid white;
+    border-radius: 30px;
+    text-align: center; 
+    color: rgb(1, 27, 1);
+    background-color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+.luxury a{
+    text-decoration: none;
+    color: rgb(1, 27, 1);
+}
+@media only screen and (max-width: 600px){
+    .body{
+        display: block;
+        margin: 0px 0px;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    .logo{
+        margin: 0px 10%;
+    }
+}
+

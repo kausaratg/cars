@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+body{
+    background-color: rgb(195, 195, 236);
+}
+h1{
+    width: 30rem;
+    margin: 10px 35%;
+}
+.first, .second{
+    display: flex;
+    margin: 40px 3rem;
+}
+.one, .two, .three, .four, .five, .six{
+    width: 50rem;
+    background-color: white;
+    margin: 30px 50px;
+    text-align: center;
+}
+.four img, .five img, .six img{
+    width: 20rem;
+}
+@media only screen and (max-width: 600px){
+    .first, .second{
+       margin: 0px 0px;
+       display: block;
+       width: 100%;
+
+    }
+    .one, .two, .three, .four, .five, .six {
+        width: 100%;
+        margin: 10px 10px;
+    }
+    h1{
+        width: 20rem;
+        margin: 10px 20px;
+        text-align: center;
+    }
+}
+
+
+
